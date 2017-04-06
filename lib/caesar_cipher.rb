@@ -19,7 +19,5 @@ def caesar_cipher(text, shift)
 			text[index] = shifted_character.chr	
 		end
 	end
-	puts text
+	text
 end
-
-caesar_cipher("What a string!", 178)
